@@ -398,19 +398,7 @@ The same amount of data movement ran at very different speeds depending on the a
 
 ---
 
-## 9. Viva questions
-
-1. What is a warp, and what does it mean for a memory access to be coalesced?
-2. Which access in the uncoalesced transpose is strided: the read or the write? Why?
-3. Why is `__syncthreads()` required in the coalesced transpose?
-4. What is a shared-memory bank conflict, and what does the `+1` padding do?
-5. Why use CUDA events instead of a CPU timer around the kernel launch?
-6. How many global-memory reads does one thread perform in the naive matmul for N = 1024? *(2 × 1024 = 2048)*
-7. How would shared-memory tiling reduce the global traffic of matrix multiplication?
-
----
-
-## 10. Troubleshooting
+## 9. Troubleshooting
 
 | Problem | Likely cause / fix |
 |---|---|
@@ -423,7 +411,7 @@ The same amount of data movement ran at very different speeds depending on the a
 
 ---
 
-## 11. Repository layout
+## 10. Repository layout
 
 ```
 
