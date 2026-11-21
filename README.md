@@ -435,8 +435,8 @@ CUDA-Experiment-06-Memory-Optimization/
 ├── .gitignore
 ├── README.md
 ├──screenshots/
-│   └── 01_nvcc_version_and_coalesced_transpose_kernel
-│   └── exp6.cu
+│   └── 01_nvcc_version_and_coalesced_transpose_kernel.png
+│   └── 02_naive_matmul_kernel_and_cpu_verification.png
 │   └── exp6.cu
 │   └── exp6.cu
 ├── src/
