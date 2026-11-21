@@ -438,7 +438,7 @@ CUDA-Experiment-06-Memory-Optimization/
 │   └── 01_nvcc_version_and_coalesced_transpose_kernel.png
 │   └── 02_naive_matmul_kernel_and_cpu_verification.png
 │   └── 03_main_function_summary_and_memory_cleanup.png
-│   └── exp6.cu
+│   └── 04_nvcc_compilation_and_rtx5060ti_benchmark_runs.png
 ├── src/
 │   └── exp6.cu
 └── results/
