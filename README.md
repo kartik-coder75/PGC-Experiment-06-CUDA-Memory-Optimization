@@ -115,8 +115,6 @@ nvcc --version    # CUDA compiler version
 | OS / shell | Windows, x64 Native Tools Command Prompt |
 | Working folder | `C:\Users\User\cuda_exp6` |
 
-![Setup, nvcc version and kernel code](screenshots/01_setup_and_kernel_code.png)
-
 > Note: `code` (VS Code) was not available on this machine, so the file was created and edited with `notepad exp6.cu`, and checked with `dir exp6.cu` and `powershell -Command "Get-Content exp6.cu -Tail 15"`.
 
 ---
