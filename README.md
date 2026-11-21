@@ -2,7 +2,7 @@
 
 **Course:** Memory Systems and Synchronization (Lab Manual)
 **Topic:** Coalesced vs uncoalesced access, naive matrix multiplication, execution-time comparison
-**Language:** CUDA C/C++  |  **Duration:** 2 hours (single-GPU lab)
+**Language:** CUDA C/C++ 
 
 ---
 
