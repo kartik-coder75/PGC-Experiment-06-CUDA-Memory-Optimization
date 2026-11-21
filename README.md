@@ -434,9 +434,14 @@ The same amount of data movement ran at very different speeds depending on the a
 CUDA-Experiment-06-Memory-Optimization/
 ├── .gitignore
 ├── README.md
+├──screenshots/
+│   └── 01_nvcc_version_and_coalesced_transpose_kernel
+│   └── exp6.cu
+│   └── exp6.cu
+│   └── exp6.cu
 ├── src/
 │   └── exp6.cu
 └── results/
     └── benchmark_output.txt
-    
+
 ```
