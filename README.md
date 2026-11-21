@@ -332,8 +332,6 @@ int main(int argc, char **argv)
 }
 ```
 
-![Summary section and cleanup code](screenshots/03_main_summary_code.png)
-
 ### Step 6: Compile
 
 ```bash
