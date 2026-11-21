@@ -1,0 +1,47 @@
+=== RUN 1 ===
+GPU: NVIDIA GeForce RTX 5060 Ti (compute capability 12.0)
+
+=== PART A: Matrix transpose (N = 4096) ===
+Uncoalesced :    0.804 ms    167.0 GB/s  PASS
+Coalesced   :    0.416 ms    322.9 GB/s  PASS
+Speedup (uncoalesced / coalesced) = 1.93x
+
+=== PART B: Naive matrix multiplication (N = 1024) ===
+Naive matmul:    1.374 ms   1563.3 GFLOPS  PASS
+
+=== SUMMARY ===
+Transpose uncoalesced : 0.804 ms
+Transpose coalesced   : 0.416 ms
+Naive matmul          : 1.374 ms
+
+=== RUN 2 ===
+GPU: NVIDIA GeForce RTX 5060 Ti (compute capability 12.0)
+
+=== PART A: Matrix transpose (N = 4096) ===
+Uncoalesced :    0.804 ms    167.0 GB/s  PASS
+Coalesced   :    0.414 ms    324.3 GB/s  PASS
+Speedup (uncoalesced / coalesced) = 1.94x
+
+=== PART B: Naive matrix multiplication (N = 1024) ===
+Naive matmul:    1.373 ms   1563.7 GFLOPS  PASS
+
+=== SUMMARY ===
+Transpose uncoalesced : 0.804 ms
+Transpose coalesced   : 0.414 ms
+Naive matmul          : 1.373 ms
+
+=== RUN 3 ===
+GPU: NVIDIA GeForce RTX 5060 Ti (compute capability 12.0)
+
+=== PART A: Matrix transpose (N = 4096) ===
+Uncoalesced :    0.805 ms    166.7 GB/s  PASS
+Coalesced   :    0.412 ms    325.6 GB/s  PASS
+Speedup (uncoalesced / coalesced) = 1.95x
+
+=== PART B: Naive matrix multiplication (N = 1024) ===
+Naive matmul:    1.544 ms   1390.7 GFLOPS  PASS
+
+=== SUMMARY ===
+Transpose uncoalesced : 0.805 ms
+Transpose coalesced   : 0.412 ms
+Naive matmul          : 1.544 ms
