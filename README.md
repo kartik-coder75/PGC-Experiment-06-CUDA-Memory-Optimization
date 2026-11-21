@@ -362,8 +362,6 @@ Run at least **three** times and record the values.
 
 Compile command and three runs on the RTX 5060 Ti:
 
-![Compile and three runs of exp6.exe](screenshots/04_compile_and_run_output.png)
-
 ### 6.1 Raw readings (3 runs)
 
 | Run | Uncoalesced (ms) | Uncoalesced (GB/s) | Coalesced (ms) | Coalesced (GB/s) | Transpose speedup | Naive matmul (ms) | Naive matmul (GFLOPS) | Checks |
