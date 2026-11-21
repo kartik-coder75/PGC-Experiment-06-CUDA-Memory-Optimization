@@ -121,7 +121,7 @@ nvcc --version    # CUDA compiler version
 
 ---
 
-## 5. Procedure (step by step)
+## 5. Procedure
 
 Create one file, `exp6.cu`, and paste Steps 1 to 5 into it in order.
 
@@ -192,9 +192,7 @@ __global__ void matMulNaive(const float *A, const float *B, float *C, int N)
 }
 ```
 
-![Naive matmul kernel and checker code](screenshots/02_matmul_and_checker_code.png)
-
-### Step 4: Host helpers (timing and verification)
+### Step 4: Host helpers 
 
 Kernel launches are asynchronous, so **CUDA events** are used for timing. The first launch is a warm-up (not timed); the transpose is repeated 20 times and averaged.
 
@@ -432,12 +430,13 @@ The same amount of data movement ran at very different speeds depending on the a
 ## 11. Repository layout
 
 ```
-.
+
+CUDA-Experiment-06-Memory-Optimization/
+├── .gitignore
 ├── README.md
-├── exp6.cu
-└── screenshots/
-    ├── 01_setup_and_kernel_code.png
-    ├── 02_matmul_and_checker_code.png
-    ├── 03_main_summary_code.png
-    └── 04_compile_and_run_output.png
+├── src/
+│   └── exp6.cu
+└── results/
+    └── benchmark_output.txt
+    
 ```
