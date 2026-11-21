@@ -373,7 +373,7 @@ Compile command and three runs on the RTX 5060 Ti:
 | 3 | 0.805 | 166.7 | 0.412 | 325.6 | 1.95x | 1.544 | 1390.7 | all PASS |
 | **Average** | **0.804** | **166.9** | **0.414** | **324.3** | **1.94x** | **1.430** | **1505.9** | PASS |
 
-### 6.2 Observation table (filled)
+### 6.2 Observation table
 
 | Kernel | Matrix size N | Time (ms) | Speedup | Bandwidth (GB/s) / GFLOPS | Result (PASS/FAIL) |
 |---|---|---|---|---|---|

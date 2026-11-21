@@ -1,0 +1,15 @@
+# Compiled executables and object files
+*.exe
+*.obj
+*.o
+*.out
+
+# MSVC & NVCC Windows linker artifacts
+*.exp
+*.lib
+*.pdb
+*.ilk
+
+# Temporary files
+*.tmp
+.DS_Store
